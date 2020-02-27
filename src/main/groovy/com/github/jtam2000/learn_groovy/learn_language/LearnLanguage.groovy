@@ -195,7 +195,7 @@ println(map2)
 //                  which then gets the field, this operator will force not use the getter method
 //              in other words, directly get the field value
 
-//  .& Method Pointer  operator: get the pointer to teh method in a class
+//  .& Method Pointer  operator: get the pointer to the method in a class
 
 
 
