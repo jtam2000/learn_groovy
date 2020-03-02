@@ -206,10 +206,12 @@ println("Elvis Operator: QuestionMark-Colon \"?:\"  This is a shortened of the T
 def defaultVariable = null
 def myVar9 = defaultVariable ?: "Default Value"
 
+def myVar10 = defaultVariable ?: "another default vale"
+
 println("def defaultVariable = null")
 println(/def myVar9 = defaultVariable ?: "Default Value"/)
 
-println("esult of operator: myVar9 = " + "${myVar9}")
+println("result of operator: myVar9 = " + "${myVar9}")
 
 
 println("")
