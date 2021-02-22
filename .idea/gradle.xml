@@ -4,9 +4,13 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+<<<<<<< HEAD
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+=======
+        <option name="distributionType" value="WRAPPED" />
+>>>>>>> d46281a4e615822dd3664038703b5a23eda6b62e
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleHome" value="/usr/local/Cellar/gradle/6.2.1/libexec" />
         <option name="gradleJvm" value="11" />

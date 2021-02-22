@@ -46,6 +46,10 @@ def printHeading = { headingName ->
 }
 
 
+//State the source of the learning
+printHeading("Learning source")
+println("learning document: http://www.groovy-lang.org/single-page-documentation.html")
+
 // IDENTIFIERS
 
 // 1. After a dot expression
@@ -195,7 +199,33 @@ println(map2)
 //                  which then gets the field, this operator will force not use the getter method
 //              in other words, directly get the field value
 
-//  .& Method Pointer  operator: get the pointer to teh method in a class
+//  .& Method Pointer  operator: get the pointer to the method in a class
+printHeading('Special Operators')
+
+println("Elvis Operator: QuestionMark-Colon \"?:\"  This is a shortened of the Ternary Operator%s")
+def defaultVariable = null
+def myVar9 = defaultVariable ?: "Default Value"
+
+def myVar10 = defaultVariable ?: "another default vale"
+
+println("def defaultVariable = null")
+println(/def myVar9 = defaultVariable ?: "Default Value"/)
+
+println("result of operator: myVar9 = " + "${myVar9}")
+
+
+println("")
+println("*Elvis Assignment Operator:  QuestionMark-Equal\"?=\"  introduced with Groovy 3.0.0")
+println(" myVar ?= <newValue>  //meaning: if myVar is null then assign <newValue> to myVar ")
+
+def myVar91 = null
+println("def myVar91 = null")
+
+myVar91 ?= "*Elvis Assignment"
+println(/myVar91 ?= "Elvis Assignment"/)
+
+println("result of operator: myVar91 = " + "${myVar91}")
+
 
 
 
@@ -220,3 +250,7 @@ import java.math.BigDecimal
 \
 // x THE END :"
 printHeading('THE END of Groovy Learning Exercise script')
+
+static void main(String[] args) {
+
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # General
 #
 out/**
@@ -47,3 +48,9 @@ out/
 ### VS Code ###
 #
 .vscode/
+=======
+.gradle/**
+.idea/workspace.xml
+out/**
+build/**/**
+>>>>>>> d46281a4e615822dd3664038703b5a23eda6b62e
