@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c55432dc-8252-4a2b-b1be-8588a13afe6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learn_groovy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax04String.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax05Numbers.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax07List.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax08Array.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax09Map.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax10Operators.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax11RegEx.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/groovy/com/github/jtam2000/Syntax12Closure.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -12,19 +20,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage$_run_closure1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage$_run_closure1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage$_run_closure1_closure3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage$_run_closure1_closure3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage$_run_closure1_closure3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/groovy/main/com/github/jtam2000/learn_groovy/learn_language/LearnLanguage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/learn_groovy-0.0.1.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/learn_groovy-0.0.1.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/learn_groovy-0.0.1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/learn_groovy-0.0.1.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/learn_groovy-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/learn_groovy-0.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/learn_groovy.bat" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/learn_groovy.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +55,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="learn_groovy" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="learn_groovy" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="learn_groovy" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="learn_groovy" type="f1a62948:ProjectNode" />
                 <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
@@ -77,6 +63,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -89,8 +82,8 @@
   </component>
   <component name="ProjectId" id="1YJchtEFGrDS6caTSi5WFuHF9SZ" />
   <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -108,119 +101,120 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.learn_groovy [run]">
-    <configuration name="learn_groovy [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Syntax12Closure.closureHasImplicitParameterIt">
+    <configuration name="Syntax11RegEx" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.github.jtam2000.Syntax11RegEx&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="learn_groovy [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Syntax11RegEx.patternFindOperator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.github.jtam2000.Syntax11RegEx.patternFindOperator&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="learn_groovy [components]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Syntax11RegEx.patternOperatorIsTilda" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.github.jtam2000.Syntax11RegEx.patternOperatorIsTilda&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="components" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="learn_groovy [properties]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Syntax12Closure.closureAllowDefaultParam" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.github.jtam2000.Syntax12Closure.closureAllowDefaultParam&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="properties" />
+            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="learn_groovy [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Syntax12Closure.closureHasImplicitParameterIt" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="-q" />
+        <option name="scriptParameters" value="--tests &quot;com.github.jtam2000.Syntax12Closure.closureHasImplicitParameterIt&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="run" />
+            <option value=":test" />
           </list>
         </option>
-        <option name="vmOptions" value="" />
+        <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Gradle.learn_groovy [build]" />
-      <item itemvalue="Gradle.learn_groovy [components]" />
-      <item itemvalue="Gradle.learn_groovy [properties]" />
-      <item itemvalue="Gradle.learn_groovy [run]" />
-      <item itemvalue="Gradle.learn_groovy [clean]" />
+      <item itemvalue="Gradle.Syntax11RegEx.patternOperatorIsTilda" />
+      <item itemvalue="Gradle.Syntax11RegEx" />
+      <item itemvalue="Gradle.Syntax11RegEx.patternFindOperator" />
+      <item itemvalue="Gradle.Syntax12Closure.closureAllowDefaultParam" />
+      <item itemvalue="Gradle.Syntax12Closure.closureHasImplicitParameterIt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.learn_groovy [clean]" />
-        <item itemvalue="Gradle.learn_groovy [run]" />
-        <item itemvalue="Gradle.learn_groovy [components]" />
-        <item itemvalue="Gradle.learn_groovy [build]" />
-        <item itemvalue="Gradle.learn_groovy [properties]" />
+        <item itemvalue="Gradle.Syntax12Closure.closureHasImplicitParameterIt" />
+        <item itemvalue="Gradle.Syntax12Closure.closureAllowDefaultParam" />
+        <item itemvalue="Gradle.Syntax11RegEx.patternFindOperator" />
+        <item itemvalue="Gradle.Syntax11RegEx" />
+        <item itemvalue="Gradle.Syntax11RegEx.patternOperatorIsTilda" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -235,34 +229,46 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="339" key="GridCell.Tab.0.bottom" timestamp="1582666323958">
-      <screen x="0" y="23" width="1484" height="937" />
+    <state x="640" y="388" key="#Notifications" timestamp="1614108034765">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1358" height="339" key="GridCell.Tab.0.bottom/0.23.1484.937@0.23.1484.937" timestamp="1582666323958" />
-    <state width="1358" height="339" key="GridCell.Tab.0.bottom/0.23.1731.1097@0.23.1731.1097" timestamp="1582664888897" />
-    <state width="1358" height="339" key="GridCell.Tab.0.center" timestamp="1582666323958">
-      <screen x="0" y="23" width="1484" height="937" />
+    <state x="640" y="388" key="#Notifications/-1366.0.1366.960/0.0.1792.1120@0.0.1792.1120" timestamp="1614108034765" />
+    <state x="550" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614036361386">
+      <screen x="0" y="25" width="1792" height="1095" />
     </state>
-    <state width="1358" height="339" key="GridCell.Tab.0.center/0.23.1484.937@0.23.1484.937" timestamp="1582666323958" />
-    <state width="1358" height="339" key="GridCell.Tab.0.center/0.23.1731.1097@0.23.1731.1097" timestamp="1582664888897" />
-    <state width="1358" height="339" key="GridCell.Tab.0.left" timestamp="1582666323958">
-      <screen x="0" y="23" width="1484" height="937" />
+    <state x="550" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1366.25.1366.935/0.25.1792.1095@0.25.1792.1095" timestamp="1614036361386" />
+    <state width="1750" height="414" key="GridCell.Tab.0.bottom" timestamp="1614141484196">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1358" height="339" key="GridCell.Tab.0.left/0.23.1484.937@0.23.1484.937" timestamp="1582666323958" />
-    <state width="1358" height="339" key="GridCell.Tab.0.left/0.23.1731.1097@0.23.1731.1097" timestamp="1582664888896" />
-    <state width="1358" height="339" key="GridCell.Tab.0.right" timestamp="1582666323958">
-      <screen x="0" y="23" width="1484" height="937" />
+    <state width="1750" height="414" key="GridCell.Tab.0.bottom/-1366.0.1366.960/0.0.1792.1120@0.0.1792.1120" timestamp="1614141484196" />
+    <state width="1750" height="322" key="GridCell.Tab.0.bottom/-1366.25.1366.935/0.0.1792.1120@0.0.1792.1120" timestamp="1614118961164" />
+    <state width="1749" height="365" key="GridCell.Tab.0.bottom/-1366.25.1366.935/0.25.1792.1095@0.25.1792.1095" timestamp="1614053661858" />
+    <state width="1494" height="296" key="GridCell.Tab.0.bottom/0.25.1536.935@0.25.1536.935" timestamp="1614044299735" />
+    <state width="1750" height="414" key="GridCell.Tab.0.center" timestamp="1614141484195">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1358" height="339" key="GridCell.Tab.0.right/0.23.1484.937@0.23.1484.937" timestamp="1582666323958" />
-    <state width="1358" height="339" key="GridCell.Tab.0.right/0.23.1731.1097@0.23.1731.1097" timestamp="1582664888897" />
-    <state x="366" y="210" key="SettingsEditor" timestamp="1582664809684">
-      <screen x="0" y="23" width="1731" height="1097" />
+    <state width="1750" height="414" key="GridCell.Tab.0.center/-1366.0.1366.960/0.0.1792.1120@0.0.1792.1120" timestamp="1614141484195" />
+    <state width="1750" height="322" key="GridCell.Tab.0.center/-1366.25.1366.935/0.0.1792.1120@0.0.1792.1120" timestamp="1614118961163" />
+    <state width="1749" height="365" key="GridCell.Tab.0.center/-1366.25.1366.935/0.25.1792.1095@0.25.1792.1095" timestamp="1614053661857" />
+    <state width="1494" height="296" key="GridCell.Tab.0.center/0.25.1536.935@0.25.1536.935" timestamp="1614044299734" />
+    <state width="1750" height="414" key="GridCell.Tab.0.left" timestamp="1614141484194">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="366" y="210" key="SettingsEditor/0.23.1731.1097@0.23.1731.1097" timestamp="1582664809684" />
-    <state x="377" y="324" key="com.intellij.ide.util.TipDialog" timestamp="1582667917555">
-      <screen x="0" y="23" width="1482" height="937" />
+    <state width="1750" height="414" key="GridCell.Tab.0.left/-1366.0.1366.960/0.0.1792.1120@0.0.1792.1120" timestamp="1614141484194" />
+    <state width="1750" height="322" key="GridCell.Tab.0.left/-1366.25.1366.935/0.0.1792.1120@0.0.1792.1120" timestamp="1614118961162" />
+    <state width="1749" height="365" key="GridCell.Tab.0.left/-1366.25.1366.935/0.25.1792.1095@0.25.1792.1095" timestamp="1614053661857" />
+    <state width="1494" height="296" key="GridCell.Tab.0.left/0.25.1536.935@0.25.1536.935" timestamp="1614044299734" />
+    <state width="1750" height="414" key="GridCell.Tab.0.right" timestamp="1614141484195">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="377" y="324" key="com.intellij.ide.util.TipDialog/0.23.1482.937@0.23.1482.937" timestamp="1582667917555" />
+    <state width="1750" height="414" key="GridCell.Tab.0.right/-1366.0.1366.960/0.0.1792.1120@0.0.1792.1120" timestamp="1614141484195" />
+    <state width="1750" height="322" key="GridCell.Tab.0.right/-1366.25.1366.935/0.0.1792.1120@0.0.1792.1120" timestamp="1614118961163" />
+    <state width="1749" height="365" key="GridCell.Tab.0.right/-1366.25.1366.935/0.25.1792.1095@0.25.1792.1095" timestamp="1614053661858" />
+    <state width="1494" height="296" key="GridCell.Tab.0.right/0.25.1536.935@0.25.1536.935" timestamp="1614044299735" />
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup" timestamp="1614119018574">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="251" width="670" height="676" key="search.everywhere.popup/-1366.0.1366.960/0.0.1792.1120@0.0.1792.1120" timestamp="1614119018574" />
   </component>
   <component name="masterDetails">
     <states>

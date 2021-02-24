@@ -16,7 +16,7 @@ repositories {
 dependencies {
     //need to tell gradle which groovy version to use
     implementation 'org.codehaus.groovy:groovy:3.0.1'
-    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation 'junit:junit:4.12'
 }
 
 
