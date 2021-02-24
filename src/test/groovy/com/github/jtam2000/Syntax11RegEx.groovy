@@ -30,6 +30,7 @@ class Syntax11RegEx {
 
         //learning: Match operator is (==~): return a boolean, not a matcher
         // important: the match has to be a STRICT match, that is why you have to put .* in the pattern
+
         pattern = ~/.*natalie/
         def match = searchText ==~ pattern
         assert match
