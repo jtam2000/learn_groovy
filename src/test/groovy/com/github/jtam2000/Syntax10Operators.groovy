@@ -1,5 +1,6 @@
 package com.github.jtam2000
 
+import groovy.transform.TypeChecked
 import org.junit.Test
 
 import java.nio.file.Files
@@ -14,7 +15,6 @@ class Syntax10Operators {
         def var1Copy = var1
 
         def var2 = ['a', 'b', 'c']
-        def var2Copy = var2
 
         assert var1 == var2
 
@@ -42,6 +42,7 @@ class Syntax10Operators {
 
     @Test
     void elvisAssignmentOperatorAssignsValueToVariableIfVariableNotDefinedOrFalse() {
+
         //case 1: var is false
         def var = false
         var ?= 'variable defined because var is not defined or false'
@@ -64,6 +65,7 @@ class Syntax10Operators {
     }
 
     @Test
+
     void safeNavigationOperator_AvoidNullPointerException() {
 
         //learning: ?. is the safe navigation operator
