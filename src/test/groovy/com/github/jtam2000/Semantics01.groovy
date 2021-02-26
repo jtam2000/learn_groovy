@@ -23,6 +23,10 @@ class Semantics01 {
         //if more variables than data, extra variables have null values
         assert notAssigned == null
 
+        //to reassigned existent variables
+        (date1, date2) = [
+                LocalDate.of(2019, 2, 3),
+                LocalDate.of(2019, 2, 3),]
 
         //if more data than variables, extra data is ignored
         def (v1, v2) = [
@@ -109,28 +113,28 @@ class Semantics01 {
         //over map
         def map = [jason: 34, collen: 12, linda: 100]
 
-        count=0
+        count = 0
         for (item in map)
-            count+=item.value
+            count += item.value
 
-        assert count == (34+12+100)
+        assert count == (34 + 12 + 100)
 
-        count=0
+        count = 0
         //over map values
         for (value in map.values())
-            count+=value
+            count += value
 
-        assert count == (34+12+100)
+        assert count == (34 + 12 + 100)
     }
 
     @Test
     void forLoopOverString() {
 
         def string = "abcdefgh xyz"
-        int count =0
+        int count = 0
 
         for (c in string)
-            count+= ("wxyz".contains(c)) ? 1: 0
+            count += ("wxyz".contains(c)) ? 1 : 0
 
         assert count == 3
     }
@@ -138,13 +142,13 @@ class Semantics01 {
     @Test
     void assertAlternativeOutputStopsAssertVisualDisplay() {
 
-        def x=100
-        def y=23
-        def z= 123
-        def w=11
-        def calc = {a, b -> a*b}
+        def x = 100
+        def y = 23
+        def z = 123
+        def w = 11
+        def calc = { a, b -> a * b }
 
-        assert calc(x,y) != w*z: "Explicit Error Message for assert failures"
+        assert calc(x, y) != w * z: "Explicit Error Message for assert failures"
     }
 
 }
